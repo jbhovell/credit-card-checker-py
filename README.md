@@ -1,10 +1,10 @@
 # credit_card_checker_py
 
-My Ruby gem credit_card_checker was downloaded 145 times on RubyGems.org in 20 hours since I published it.
+My Ruby gem credit_card_checker was downloaded 148 times on RubyGems.org within 1 day since it was published.
 
-It might be a good idea to create a Python version and open the source to the Python community.
+It might be a good idea to create a Python edition to share with the Python community on PyPi.
 
-To install the package, please add the package to Pipfile 
+To install the package, please add the package to your Pipfile.
 
 or run `pip3 install credit_card_checker`
 
@@ -63,6 +63,16 @@ Sum the digits
 57 is not evenly divisible by 10, so this number is not valid.
 
 ---
+
+## example usage
+
+```
+>>> from credit_card_checker import CreditCardChecker
+>>> CreditCardChecker("234 567 891 234").valid()
+True
+>>> CreditCardChecker("055# 444$ 285").valid()
+False
+```
 
 ## test
 
