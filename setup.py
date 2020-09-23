@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="jianfangbh",
+    name="credit_card_checker",
     version="0.0.1",
     author="Jianfang Bladen-Hovell",
     author_email="bladenhovell@gmail.com",
