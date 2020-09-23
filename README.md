@@ -68,9 +68,9 @@ Sum the digits
 
 ```
 >>> from credit_card_checker import CreditCardChecker
->>> CreditCardChecker("234 567 891 234").valid()
+>>> CreditCardChecker('234 567 891 234').valid()
 True
->>> CreditCardChecker("055# 444$ 285").valid()
+>>> CreditCardChecker('8273 1232 7352 0569').valid()
 False
 ```
 
