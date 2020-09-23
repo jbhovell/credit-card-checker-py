@@ -1,8 +1,8 @@
 # credit_card_checker_py
 
-My Ruby gem credit_card_checker was downloaded 148 times on RubyGems.org within 1 day since it was published.
+My Ruby gem credit_card_checker was downloaded 190 times on RubyGems.org within 1 day since it was published.
 
-It might be a good idea to create a Python edition to share with the Python community on PyPi.
+It might be a good idea to create a Python edition to share with the Python community on PyPI.
 
 To install the package, please add the package to your Pipfile.
 

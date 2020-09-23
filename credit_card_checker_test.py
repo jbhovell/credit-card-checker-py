@@ -1,7 +1,6 @@
+
 import unittest
-
 from credit_card_checker import CreditCardChecker
-
 
 class CreditCardCheckerTest(unittest.TestCase):
     def test_single_digit_strings_can_not_be_valid(self):
