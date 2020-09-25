@@ -1,15 +1,12 @@
 import setuptools
 import re
 
-module_file = open('credit_card_checker.py').read()
-metadata = dict(re.findall("__([a-z]+)__\s*=\s*'([^']+)'", module_file))
-
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="credit_card_checker",
-    version="0.0.2",
+    version="0.0.3",
     author="Jianfang Bladen-Hovell",
     author_email="bladenhovell@gmail.com",
     description="Use the Luhn algorithm to check if credit card numbers are valid",
